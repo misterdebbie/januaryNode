@@ -1,4 +1,4 @@
-body {
+/*body {
   padding: 50px;
   font-family: 'Creepster', cursive;
   color:green;
@@ -7,4 +7,9 @@ body {
 
 a {
   color: #00B7FF;
+}*/
+body {
+  font-family: 'Creepster', cursive;
+  color:green;
+  background-image: url("/images/yfluff.png");
 }
