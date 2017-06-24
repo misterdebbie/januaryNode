@@ -6,11 +6,11 @@
     res.render('home', {title: 'The Homepage!!!'});
 };*/
 
-var renderTestpage = function(req, res){
+/*var renderTestpage = function(req, res){
     res.render('locTest', {
         title: 'Yang Site!',
         pageHeader: {
-            title: 'Angular Yang Test Site!!!',
+            title: 'Yang Test Site!!!',
             strapline: 'Must learn Angular and React!'
         },
         sidebar: "{{{{haha}}}!!!!!!"
@@ -18,4 +18,7 @@ var renderTestpage = function(req, res){
 };
 module.exports.testController = function(req,res){
     renderTestpage(req,res);
+};*/
+module.exports.testController = function(req,res){
+    res.render('yang', { title: 'yang!'});
 };
